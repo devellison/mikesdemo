@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B43F505D-42E1-4BA9-873F-26AAF584C862}</ProjectGuid>
+    <RootNamespace>MikesDemo</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31401.40</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</ExternalIncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(DXSDK_DIR)Lib\x86</LibraryPath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath)</LibraryWPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</ExternalIncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(DXSDK_DIR)Lib\x86</LibraryPath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath)</LibraryWPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath)</LibraryWPath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</ExternalIncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(DXSDK_DIR)Lib\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryWPath>$(WindowsSDK_MetadataPath)</LibraryWPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</ExternalIncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(DXSDK_DIR)Lib\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\CATGUI;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COMPILED_FROM_DSP;XML_STATIC;_CRT_SECURE_NO_WARNINGS;SQLITE_THREADSAFE=0;XML_UNICODE_WCHAR_T;XML_LARGE_SIZE;XML_USE_MSC_EXTENSIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;shlwapi.lib;opengl32.lib;glu32.lib;comctl32.lib;Oleacc.lib;strmiids.lib;d3d9.lib;D3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>rmdir $(SolutionDir)\bin\skin /s /Q
+mkdir $(SolutionDir)\bin\skin
+xcopy $(SolutionDir)\skin\*.* $(SolutionDir)\bin\skin\*.* /s /Y
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\CATGUI;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;COMPILED_FROM_DSP;XML_STATIC;_CRT_SECURE_NO_WARNINGS;SQLITE_THREADSAFE=0;XML_UNICODE_WCHAR_T;XML_LARGE_SIZE;XML_USE_MSC_EXTENSIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;shlwapi.lib;opengl32.lib;glu32.lib;comctl32.lib;Oleacc.lib;strmiids.lib;d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>rmdir $(SolutionDir)\bin\skin /s /Q
+mkdir $(SolutionDir)\bin\skin
+xcopy $(SolutionDir)\skin\*.* $(SolutionDir)\bin\skin\*.* /s /Y
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\CATGUI;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COMPILED_FROM_DSP;XML_STATIC;_CRT_SECURE_NO_WARNINGS;SQLITE_THREADSAFE=0;XML_UNICODE_WCHAR_T;XML_LARGE_SIZE;XML_USE_MSC_EXTENSIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;shlwapi.lib;opengl32.lib;glu32.lib;comctl32.lib;Oleacc.lib;strmiids.lib;d3d9.lib;D3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>rmdir $(SolutionDir)\bin\skin /s /Q
+mkdir $(SolutionDir)\bin\skin
+xcopy $(SolutionDir)\skin\*.* $(SolutionDir)\bin\skin\*.* /s /Y
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\CATGUI;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;COMPILED_FROM_DSP;XML_STATIC;_CRT_SECURE_NO_WARNINGS;SQLITE_THREADSAFE=0;XML_UNICODE_WCHAR_T;XML_LARGE_SIZE;XML_USE_MSC_EXTENSIONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;shlwapi.lib;opengl32.lib;glu32.lib;comctl32.lib;Oleacc.lib;strmiids.lib;d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>rmdir $(SolutionDir)\bin\skin /s /Q
+mkdir $(SolutionDir)\bin\skin
+xcopy $(SolutionDir)\skin\*.* $(SolutionDir)\bin\skin\*.* /s /Y
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MikesDemo.cpp" />
+    <ClCompile Include="src\MikesDemoWindow_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MikesDemo.h" />
+    <ClInclude Include="src\MikesDemoGuiFactory.h" />
+    <ClInclude Include="src\MikesDemoWindow_Main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MikesDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doxyfile" />
+    <None Include="skin\CodeBlind_Setup.exe" />
+    <None Include="skin\GoodStick.3sc" />
+    <None Include="skin\MIDIDriver_Setup.exe" />
+    <None Include="src\MikesDemo.dox" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="skin\skin.xml" />
+    <Xml Include="skin\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="skin\3dscanner.png" />
+    <Image Include="skin\bgImage.png" />
+    <Image Include="skin\blank.png" />
+    <Image Include="skin\border3d.png" />
+    <Image Include="skin\circuit.png" />
+    <Image Include="skin\cnc_bed.png" />
+    <Image Include="skin\cnc_full.png" />
+    <Image Include="skin\codeblind.png" />
+    <Image Include="skin\gearbox.png" />
+    <Image Include="skin\guitarport.png" />
+    <Image Include="skin\IRSImachine.png" />
+    <Image Include="skin\irsi_logo.png" />
+    <Image Include="skin\irsi_machine.png" />
+    <Image Include="skin\jewelry.png" />
+    <Image Include="skin\jewlery.png" />
+    <Image Include="skin\knob1.png" />
+    <Image Include="skin\knob1_dis.png" />
+    <Image Include="skin\knob1_foc.png" />
+    <Image Include="skin\line6_logo.png" />
+    <Image Include="skin\linkedinbtn.png" />
+    <Image Include="skin\linkedinbtn_a.png" />
+    <Image Include="skin\linkedinbtn_d.png" />
+    <Image Include="skin\linkedinbtn_f.png" />
+    <Image Include="skin\linkedinbtn_fa.png" />
+    <Image Include="skin\linkedinbtn_p.png" />
+    <Image Include="skin\logo_cover.png" />
+    <Image Include="skin\metronome.png" />
+    <Image Include="skin\mididriver.png" />
+    <Image Include="skin\mididriver_curves.png" />
+    <Image Include="skin\pf2_screen.png" />
+    <Image Include="skin\podfarm.png" />
+    <Image Include="skin\populated.png" />
+    <Image Include="skin\proframe.png" />
+    <Image Include="skin\pstsorter.png" />
+    <Image Include="skin\pst_logo.png" />
+    <Image Include="skin\pst_sorter.png" />
+    <Image Include="skin\radiobtn.png" />
+    <Image Include="skin\radiobtn1.png" />
+    <Image Include="skin\radiobtn1_focus.png" />
+    <Image Include="skin\radiobtn1_on.PNG" />
+    <Image Include="skin\radiobtn1_on_focus.png" />
+    <Image Include="skin\radiobtn2.png" />
+    <Image Include="skin\radiobtn2_focus.png" />
+    <Image Include="skin\radiobtn2_on.PNG" />
+    <Image Include="skin\radiobtn2_on_focus.png" />
+    <Image Include="skin\radiobtn3.png" />
+    <Image Include="skin\radiobtn3_focus.png" />
+    <Image Include="skin\radiobtn3_on.png" />
+    <Image Include="skin\radiobtn3_on_focus.png" />
+    <Image Include="skin\radiobtn4.png" />
+    <Image Include="skin\radiobtn4_focus.png" />
+    <Image Include="skin\radiobtn4_on.png" />
+    <Image Include="skin\radiobtn4_on_focus.png" />
+    <Image Include="skin\radiobtn_a.png" />
+    <Image Include="skin\radiobtn_on.png" />
+    <Image Include="skin\radiobtn_on_a.png" />
+    <Image Include="skin\reflect_logo.png" />
+    <Image Include="skin\scope.png" />
+    <Image Include="skin\tams_logo.png" />
+    <Image Include="skin\title.png" />
+    <Image Include="skin\title_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="COPYING.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="lib\CATGUI\CATGUI.vcxproj">
+      <Project>{b24bc51a-f606-4eca-b77c-59ae6f371644}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="lib\CAT\cat.vcxproj">
+      <Project>{0679dde9-320e-4718-a15a-b3fae232e9ba}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

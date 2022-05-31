@@ -135,7 +135,7 @@ CATResult CATTreeCtrl::OSAddItem( const CATString& displayText, CATTREEINFO* lis
 
     tvi.item.mask = TVIF_TEXT | TVIF_PARAM;
     tvi.item.pszText = tmpDisplay.GetUnicodeBuffer();
-    tvi.item.lParam = (long)listInfo;
+    tvi.item.lParam = LPARAM(listInfo);
 
     if ((listInfo->ImageNumber != -1) && (fImageList != 0))
     {

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B24BC51A-F606-4ECA-B77C-59AE6F371644}</ProjectGuid>
+    <RootNamespace>CATGUI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31401.40</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\lib\CAT;$(SolutionDir)\lib\expat\lib;$(SolutionDir)\lib\libpng;$(SolutionDir)\lib\zlib;$(SolutionDir)\lib\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAT3DVideo.cpp" />
+    <ClCompile Include="CAT3DView.cpp" />
+    <ClCompile Include="CATApp.cpp" />
+    <ClCompile Include="CATAppButton.cpp" />
+    <ClCompile Include="CATApp_Win32.cpp" />
+    <ClCompile Include="CATBrowser.cpp" />
+    <ClCompile Include="CATBrowser_Win32.cpp" />
+    <ClCompile Include="CATButton.cpp" />
+    <ClCompile Include="CATComboBox.cpp" />
+    <ClCompile Include="CATCommand.cpp" />
+    <ClCompile Include="CATControl.cpp" />
+    <ClCompile Include="CATControlWnd.cpp" />
+    <ClCompile Include="CATControlWnd_Win32.cpp" />
+    <ClCompile Include="CATCursor_Win32.cpp" />
+    <ClCompile Include="CATEditBox.cpp" />
+    <ClCompile Include="CATEditBox_Win32.cpp" />
+    <ClCompile Include="CATGuiFactory.cpp" />
+    <ClCompile Include="CATGuiObj.cpp" />
+    <ClCompile Include="CATIconButton.cpp" />
+    <ClCompile Include="CATIconSwitch.cpp" />
+    <ClCompile Include="CATKnob.cpp" />
+    <ClCompile Include="CATLabel.cpp" />
+    <ClCompile Include="CATLayer.cpp" />
+    <ClCompile Include="CATListBox.cpp" />
+    <ClCompile Include="CATListBox_Win32.cpp" />
+    <ClCompile Include="CATMenu.cpp" />
+    <ClCompile Include="CATMenu_Win32.cpp" />
+    <ClCompile Include="CATOverlayFactory.cpp" />
+    <ClCompile Include="CATPicture.cpp" />
+    <ClCompile Include="CATPictureMulti.cpp" />
+    <ClCompile Include="CATPrefs.cpp" />
+    <ClCompile Include="CATProgress.cpp" />
+    <ClCompile Include="CATRadioButton.cpp" />
+    <ClCompile Include="CATSkin.cpp" />
+    <ClCompile Include="CATSlider.cpp" />
+    <ClCompile Include="CATSwitch.cpp" />
+    <ClCompile Include="CATSwitchMulti.cpp" />
+    <ClCompile Include="CATTab.cpp" />
+    <ClCompile Include="CATTreeCtrl.cpp" />
+    <ClCompile Include="CATTreeCtrl_Win32.cpp" />
+    <ClCompile Include="CATWaitDlg.cpp" />
+    <ClCompile Include="CATWidget.cpp" />
+    <ClCompile Include="CATWindow.cpp" />
+    <ClCompile Include="CATWindow_Win32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAT3DVideo.h" />
+    <ClInclude Include="CAT3DView.h" />
+    <ClInclude Include="CATApp.h" />
+    <ClInclude Include="CATAppButton.h" />
+    <ClInclude Include="CATBrowser.h" />
+    <ClInclude Include="CATButton.h" />
+    <ClInclude Include="CATComboBox.h" />
+    <ClInclude Include="CATCommand.h" />
+    <ClInclude Include="CATControl.h" />
+    <ClInclude Include="CATControlWnd.h" />
+    <ClInclude Include="CATCursor.h" />
+    <ClInclude Include="CATEditBox.h" />
+    <ClInclude Include="CATEvent.h" />
+    <ClInclude Include="CATEventDefs.h" />
+    <ClInclude Include="CATGUI.h" />
+    <ClInclude Include="CATGUIAccessDefs.h" />
+    <ClInclude Include="CATGuiFactory.h" />
+    <ClInclude Include="CATGUIInternal.h" />
+    <ClInclude Include="CATGuiObj.h" />
+    <ClInclude Include="CATGuiResDefs.h" />
+    <ClInclude Include="CATIconButton.h" />
+    <ClInclude Include="CATIconSwitch.h" />
+    <ClInclude Include="CATKnob.h" />
+    <ClInclude Include="CATLabel.h" />
+    <ClInclude Include="CATLayer.h" />
+    <ClInclude Include="CATListBox.h" />
+    <ClInclude Include="CATMenu.h" />
+    <ClInclude Include="CATOverlayFactory.h" />
+    <ClInclude Include="CATPicture.h" />
+    <ClInclude Include="CATPictureMulti.h" />
+    <ClInclude Include="CATPrefs.h" />
+    <ClInclude Include="CATProgress.h" />
+    <ClInclude Include="CATRadioButton.h" />
+    <ClInclude Include="CATSkin.h" />
+    <ClInclude Include="CATSlider.h" />
+    <ClInclude Include="CATSwitch.h" />
+    <ClInclude Include="CATSwitchMulti.h" />
+    <ClInclude Include="CATTab.h" />
+    <ClInclude Include="CATTreeCtrl.h" />
+    <ClInclude Include="CATWaitDlg.h" />
+    <ClInclude Include="CATWidget.h" />
+    <ClInclude Include="CATWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CATGUI.dox" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

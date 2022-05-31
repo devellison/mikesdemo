@@ -250,8 +250,8 @@ CATResult CATFileSystem_Win32::FindFirst (  const CATString& searchPath,
 
    CATResult result = CAT_SUCCESS;   
 
-   CATString tmpDir = searchDir;
-   fFindPaths.insert(std::make_pair<CATFINDHANDLE,CATString>(findHandle,tmpDir));
+   fFindPaths[findHandle] = searchDir;
+   //fFindPaths.insert(std::make_pair<CATFINDHANDLE,CATString>(findHandle,tmpDir));
 
    firstFile = BuildPath(searchDir, findData.cFileName);
    

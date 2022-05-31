@@ -1,20 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MikesDemo", "MikesDemo.vcproj", "{B43F505D-42E1-4BA9-873F-26AAF584C862}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B24BC51A-F606-4ECA-B77C-59AE6F371644} = {B24BC51A-F606-4ECA-B77C-59AE6F371644}
-		{0679DDE9-320E-4718-A15A-B3FAE232E9BA} = {0679DDE9-320E-4718-A15A-B3FAE232E9BA}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MikesDemo", "MikesDemo.vcxproj", "{B43F505D-42E1-4BA9-873F-26AAF584C862}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAT", "lib\CAT\cat.vcproj", "{0679DDE9-320E-4718-A15A-B3FAE232E9BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAT", "lib\CAT\cat.vcxproj", "{0679DDE9-320E-4718-A15A-B3FAE232E9BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CATGUI", "lib\CATGUI\CATGUI.vcproj", "{B24BC51A-F606-4ECA-B77C-59AE6F371644}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CATGUI", "lib\CATGUI\CATGUI.vcxproj", "{B24BC51A-F606-4ECA-B77C-59AE6F371644}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CATStringGen", "tools\CATStringGen\CATStringGen.vcproj", "{AC95E2F9-8B50-4F7B-9DC6-AD74FF85285A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0679DDE9-320E-4718-A15A-B3FAE232E9BA} = {0679DDE9-320E-4718-A15A-B3FAE232E9BA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CATStringGen", "tools\CATStringGen\CATStringGen.vcxproj", "{AC95E2F9-8B50-4F7B-9DC6-AD74FF85285A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,5 +54,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE127BC8-E623-4093-B825-70922226E421}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Skin">
+      <UniqueIdentifier>{2c731db8-b63f-4bd5-bff9-821fd653a6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skin\images">
+      <UniqueIdentifier>{20a4333c-e697-43db-aa99-a953eb1d92cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{fcdd3a8b-8100-4c1e-8044-988639e1425b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MikesDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MikesDemoWindow_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MikesDemo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MikesDemoGuiFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MikesDemoWindow_Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MikesDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skin\GoodStick.3sc">
+      <Filter>Skin</Filter>
+    </None>
+    <None Include="skin\CodeBlind_Setup.exe">
+      <Filter>Skin\images</Filter>
+    </None>
+    <None Include="skin\MIDIDriver_Setup.exe">
+      <Filter>Skin\images</Filter>
+    </None>
+    <None Include="Doxyfile">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="src\MikesDemo.dox">
+      <Filter>Docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="skin\skin.xml">
+      <Filter>Skin</Filter>
+    </Xml>
+    <Xml Include="skin\Strings.xml">
+      <Filter>Skin\images</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="skin\3dscanner.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\bgImage.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\blank.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\border3d.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\circuit.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\cnc_bed.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\cnc_full.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\codeblind.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\gearbox.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\guitarport.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\irsi_logo.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\irsi_machine.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\IRSImachine.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\jewelry.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\jewlery.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\knob1.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\knob1_dis.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\knob1_foc.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\line6_logo.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn_a.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn_d.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn_f.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn_fa.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\linkedinbtn_p.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\logo_cover.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\metronome.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\mididriver.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\mididriver_curves.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\pf2_screen.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\podfarm.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\populated.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\proframe.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\pst_logo.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\pst_sorter.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\pstsorter.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn1.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn1_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn1_on.PNG">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn1_on_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn2.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn2_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn2_on.PNG">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn2_on_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn3.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn3_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn3_on.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn3_on_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn4.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn4_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn4_on.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn4_on_focus.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn_a.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn_on.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\radiobtn_on_a.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\reflect_logo.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\scope.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\tams_logo.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\title.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+    <Image Include="skin\title_a.png">
+      <Filter>Skin\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="COPYING.txt">
+      <Filter>Docs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

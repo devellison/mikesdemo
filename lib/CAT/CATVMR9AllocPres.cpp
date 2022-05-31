@@ -7,7 +7,6 @@
 ///
 ///
 #include "CATVMR9AllocPres.h"
-#include <d3dx9tex.h>
 
 CATVMR9AllocPres::CATVMR9AllocPres()
 {

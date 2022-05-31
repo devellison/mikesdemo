@@ -330,7 +330,7 @@ CATResult CATCmdLine::PrintUsage(CATInt32 maxColumns)
     if (preface)
         wprintf(L"%s\n",preface);
 
-    wprintf(L"\n%s\n\n",fStringTable->GetString(CAT_STR_USAGE));
+    wprintf(L"\n%s\n\n",(const CATWChar *)fStringTable->GetString(CAT_STR_USAGE));
 
     int curColumn   = 0;
     int startColumn = 4;

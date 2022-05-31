@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{04908741-6bac-43c1-92fe-f7ab04f75c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{8c0d8a11-0d00-4cd9-a21c-ef8ecacbeb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Intercepts %28unused here%29">
+      <UniqueIdentifier>{7fe4d17a-dfee-4e6f-9b6f-41e0826196d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Utility">
+      <UniqueIdentifier>{7e4eb33f-80e4-41ed-989b-9a3d93b3edf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Core">
+      <UniqueIdentifier>{08030e0c-e78b-41d2-a8da-71d36d949575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32\Input">
+      <UniqueIdentifier>{1551a54b-aef7-45c4-8fc3-35659ee50284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Imaging">
+      <UniqueIdentifier>{4498d131-11d8-481a-84e3-14b414ac79cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{488232c2-dd46-45fa-9d0c-e37f33e43811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Results">
+      <UniqueIdentifier>{9afeac0b-1f70-437e-b280-cdd20b8c9b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{77faa17e-0895-4493-bee0-d6d21b6c5df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{63273ae8-8669-4b86-9de2-f6ed8c924e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{b2e0240c-e61d-480b-855e-f32766f6c738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{ee4549ff-2570-4c62-8175-76ab591c0a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\expat">
+      <UniqueIdentifier>{3e06b72d-a4a4-41da-a59b-18831a37088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\zlib">
+      <UniqueIdentifier>{a9b6a671-57a6-4dbc-a557-30e84ee1ee96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\sqlite">
+      <UniqueIdentifier>{1bd106c7-0d5d-4bf5-90bc-c37d8267d9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\libpng">
+      <UniqueIdentifier>{75b8af55-80f8-409e-9498-18220aabfa16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringsAndResults">
+      <UniqueIdentifier>{a8971329-a39c-4ebe-8977-e7950d573be6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAT.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATCmdLine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATCritSec_Win32.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATDebug.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATImage.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATMsgThread.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATOSFuncs_Win32.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStream.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStreamFile.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStreamRAM.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStreamSub.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATString.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStringTable.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATThread.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATDirectSoundIntercept.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATInjectionPropagate.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATIntercept.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATOpenALIntercept.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATOverlay.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATOverlayDirect3D9.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATOverlayOpenGL.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATTimeWarp.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATWindowHook.cpp">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CATDLLInjector.cpp">
+      <Filter>Source Files\Win32\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CATFileSystem_Win32.cpp">
+      <Filter>Source Files\Win32\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATMutex_Win32.cpp">
+      <Filter>Source Files\Win32\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATPlatform_Win32.cpp">
+      <Filter>Source Files\Win32\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATSignal_Win32.cpp">
+      <Filter>Source Files\Win32\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CATDIJoystick.cpp">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATDirectInput.cpp">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATSpeechCmds.cpp">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATVideoCapture_Win32.cpp">
+      <Filter>Source Files\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="CATVMR9AllocPres.cpp">
+      <Filter>Source Files\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="CATControllerMapper.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATControlMap.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATJoystick.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStringTableCore.cpp">
+      <Filter>Source Files\Results</Filter>
+    </ClCompile>
+    <ClCompile Include="CATCurveFit.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATFilter.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATFilterAttackDecay.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATFilterEWMA.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATLineFit.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATMatrix.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATStats.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMagInfo.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CATXMLFactory.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="CATXMLObject.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="CATXMLParser.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\expat\lib\xmlparse.c">
+      <Filter>ThirdParty\expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\expat\lib\xmlrole.c">
+      <Filter>ThirdParty\expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\expat\lib\xmltok.c">
+      <Filter>ThirdParty\expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\expat\lib\xmltok_impl.c">
+      <Filter>ThirdParty\expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\expat\lib\xmltok_ns.c">
+      <Filter>ThirdParty\expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\adler32.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\compress.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\crc32.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\deflate.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\example.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzio.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\infback.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inffast.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inflate.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inftrees.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\trees.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\uncompr.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\zutil.c">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite\sqlite3.c">
+      <Filter>ThirdParty\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\png.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngerror.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pnggccrd.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngget.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngmem.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngpread.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngread.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngrio.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngrtran.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngrutil.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngset.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngtrans.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngvcrd.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngwio.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngwrite.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngwtran.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpng\pngwutil.c">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAT.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATCmdLine.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATColor.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATConfig.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATCritSec.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATDebug.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATInternal.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATMsgThread.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATMutex.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATOSFuncs.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATQueue.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATRect.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATResult.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATSignal.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATStack.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATStreamRAM.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATString.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATStringTable.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATStringTableCore.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATThread.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATTypes.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATUtil.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CATAccessible.h">
+      <Filter>Source Files\Win32\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CATDIJoystick.h">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATDirectInput.h">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATSpeechCmds.h">
+      <Filter>Source Files\Win32\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATVideoCapture.h">
+      <Filter>Source Files\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="CATVMR9AllocPres.h">
+      <Filter>Source Files\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="CATControllerMapper.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATControlMap.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATJoystick.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CATResultCore.h">
+      <Filter>Source Files\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="CATMathUtil.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CATXMLFactory.h">
+      <Filter>Source Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="CATXMLObject.h">
+      <Filter>Source Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="CATXMLParser.h">
+      <Filter>Source Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\expat\lib\expat.h">
+      <Filter>ThirdParty\expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\crc32.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\deflate.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffast.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffixed.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inflate.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inftrees.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\trees.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zconf.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zutil.h">
+      <Filter>ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\sqlite3.h">
+      <Filter>ThirdParty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite\sqlite3ext.h">
+      <Filter>ThirdParty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\png.h">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\pngconf.h">
+      <Filter>ThirdParty\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="CATStringCore.h">
+      <Filter>StringsAndResults</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CAT.dox">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\libpng\LICENSE">
+      <Filter>ThirdParty\libpng</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CATFileSystem.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATImage.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATPlatform.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATStream.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATStreamFile.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATStreamSub.h">
+      <Filter>Source Files\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATDirectSoundIntercept.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATInjectionPropagate.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATIntercept.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATOpenALIntercept.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATOverlay.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATOverlayDirect3D9.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATOverlayOpenGL.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATTimeWarp.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATWindowHook.h">
+      <Filter>Source Files\Win32\Intercepts %28unused here%29</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATDLLInjector.h">
+      <Filter>Source Files\Win32\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATFileSystem_Win32.h">
+      <Filter>Source Files\Win32\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATKeystroke.h">
+      <Filter>Source Files\Input</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATCurveFit.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATFilter.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATFilterAttackDecay.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATFilterEWMA.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATLineFit.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATMatrix.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATPoint.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATStats.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CBMagInfo.h">
+      <Filter>Source Files\Math</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CATStringCore.xml">
+      <Filter>StringsAndResults</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
