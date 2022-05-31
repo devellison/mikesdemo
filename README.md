@@ -6,7 +6,8 @@ libraries I build from about 2001-2011.
 It is not production ready, it's ancient pre-C++11 code, 
 but it is sometimes a useful example.
 
-The compiled .exe is in .\bin\MikesDemo.exe, and can be run as-is.
+The 1.0 release has a Windows 64-bit executable and should be able to
+be unzipped and run.
 
 If you have a web camera or other capture device, it should capture
 video into the 3D demo window.
