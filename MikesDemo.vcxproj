@@ -229,6 +229,7 @@ xcopy $(SolutionDir)\skin\*.* $(SolutionDir)\bin\skin\*.* /s /Y
   </ItemGroup>
   <ItemGroup>
     <None Include="Doxyfile" />
+    <None Include="README.md" />
     <None Include="skin\CodeBlind_Setup.exe" />
     <None Include="skin\GoodStick.3sc" />
     <None Include="skin\MIDIDriver_Setup.exe" />

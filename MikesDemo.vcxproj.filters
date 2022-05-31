@@ -59,6 +59,9 @@
     <None Include="src\MikesDemo.dox">
       <Filter>Docs</Filter>
     </None>
+    <None Include="README.md">
+      <Filter>Docs</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="skin\skin.xml">
